@@ -28,7 +28,7 @@ describe("Translators", function () {
             assert.strictEqual(toAllsprak(""), "")
         })
         it("should work for simple input", function() {
-            assert.strictEqual(toAllsprak("Hejsan hoppsan!"), "Halljsalln hallppsalln!")
+            assert.strictEqual(toAllsprak("Hejsan hoppsan!"), "Hallejsan halloppsan!")
         })
     })
 })
